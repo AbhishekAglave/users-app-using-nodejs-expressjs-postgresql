@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form label{
+    display: flex;
+    flex-direction: column;
+}
+form button{
+    margin-top: 10px;
+    height: 25px;
+}
+form label input{
+    height: 20px;
+}
